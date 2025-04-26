@@ -1,0 +1,9 @@
+from abc import ABC, abstractmethod
+
+class StepperInterface(ABC):
+    @abstractmethod
+    def init(self): ...
+    @abstractmethod
+    def step(self, steps: int, speed: float): ...
+    @abstractmethod
+    def reset(self): ...
