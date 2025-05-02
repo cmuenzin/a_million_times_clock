@@ -5,6 +5,8 @@ from hal.sim_stepper import SimStepper
 WHITE = (255,255,255)
 BLACK = (0,0,0)
 
+# Erstelle eine Simulation mit 24 Uhren, die die aktuelle Uhrzeit anzeigen
+
 def draw_clock_face(surface, center, radius):
     pygame.draw.circle(surface, BLACK, center, radius, width=2)
 
