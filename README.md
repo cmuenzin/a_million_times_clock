@@ -1,5 +1,7 @@
 # Million-Times-Clock
 
+Inspiriert von der Million Times Clock by HS1982
+
 **Ziel:** Simulation und Steuerung von 24 Uhren mit je 2 Steppern  
 **Technologien:** Python, Pygame, MicroPython auf ESP32
 
